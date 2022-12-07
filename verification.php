@@ -1,10 +1,10 @@
 <?php
 session_start();
-if(!isset($_SESSION['confirm-code']) || !isset($_SESSION['confirm'])){
-    echo "متاسفانه زمان مجاز برای احراز گذشته است. لطفا مجدد ثبت نام کنید.";
-    // header('location: ../operations/error.php?id=expire');
-    exit();
-}
+// if(!isset($_SESSION['confirm-code']) || !isset($_SESSION['confirm'])){
+//     echo "متاسفانه زمان مجاز برای احراز گذشته است. لطفا مجدد ثبت نام کنید.";
+//     // header('location: ../operations/error.php?id=expire');
+//     exit();
+// }
 
 // فایل دیتا بیس در مسیر اصلی سایت است
 include "database.php";
